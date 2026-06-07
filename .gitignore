@@ -1,0 +1,37 @@
+# 编译产物
+wallhaven-dl
+wallhaven-dl.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试二进制
+*.test
+
+# Go 工具链产物
+*.out
+vendor/
+
+# 运行时文件
+config.json
+wallhaven-dl.log
+wallhaven-dl.log.old
+
+# 下载目录
+Wallhaven/
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
